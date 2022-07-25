@@ -34,7 +34,7 @@ const Checkout = ({cart}) => {
         nextStep();
     }
 
-    const Form = () => activeStep === 0 ? <AddresForm checkoutToken={checkoutToken} next={next}/> : <PaymentForm/>
+    const Form = () => activeStep === 0 ? <AddresForm checkoutToken={checkoutToken} next={next}/> : <PaymentForm checkoutToken={checkoutToken}/>
     return (
         <>
             <div className={classes.toolbar} />
