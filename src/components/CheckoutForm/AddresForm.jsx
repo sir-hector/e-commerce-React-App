@@ -59,7 +59,7 @@ const AddresForm = ({ checkoutToken, next }) => {
                         <CustomTextField required={true} name='lastName' label='Last name' />
                         <CustomTextField required={true} name='address1' label='Address' />
                         <CustomTextField required={true} name='email' label='Email' />
-                        <CustomTextField required={true} name='City' label='City' />
+                        <CustomTextField required={true} name='city' label='City' />
                         <CustomTextField required={true} name='zip' label='ZIP / Postal Code' />
                         <Grid item xs={12} sm={6}>
                             <InputLabel>Shipping Country</InputLabel>
